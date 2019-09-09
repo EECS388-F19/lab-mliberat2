@@ -6,5 +6,5 @@ if __name__ == '__main__':
     y = random.randint(1,100)
     print(x)
     print(y)
-    print('Sum = ' + x+y)
-    print('Average = ' + (x+y))
+    print('Sum = ' + str(x+y))
+    print('Average = ' + str((x+y)/2.0))
